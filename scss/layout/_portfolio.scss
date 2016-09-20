@@ -1,0 +1,46 @@
+/**
+ * ====== Portfolio Styles ======
+ */
+
+.portfolio h3 {
+  @extend %centered;
+  margin: 10% auto;
+  
+  @media #{$brk-wide} {
+    margin: 30px auto;
+  }
+  @media #{$brk-narrow} {  
+    margin: 30px auto;
+  }
+}
+.portfolio ul li h3 {
+  margin: 10px 0;
+  
+  @media #{$brk-wide} {
+    margin: 10px 0;
+  }
+  @media #{$brk-narrow} {
+    margin: 10px 0;
+  }
+}
+.portfolio p {
+  margin: 0 5%;
+  padding-bottom: 30px;
+  
+  @media #{$brk-wide} {
+    margin: 0 5%;
+    padding-bottom: 30px;
+  }
+  @media #{$brk-narrow} {
+    margin: 0 5%;
+    padding-bottom: 30px;
+  }
+}
+
+.pc-only {
+  display: none;
+  
+   @media #{$brk-wide} {
+    display: inline-block;
+  }
+}

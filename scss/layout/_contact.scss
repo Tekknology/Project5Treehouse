@@ -1,0 +1,22 @@
+/**
+ * ====== Contact Styles ======
+ */
+
+.contact,
+.contact h3 {
+  @extend %centered;
+  padding: 20px 0;
+}
+.contact p {
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  margin: 0 5%;
+  
+  @media #{$brk-wide} {
+    max-width: 28%;
+    margin: 0 auto;
+  }
+}
+.contact li {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,18 @@
+// Descriptive color variables
+
+$black          : #000;
+$whitesmoke     : #f5f5f5; 
+$lightblue      : #add8e6;
+$lightsteelblue : #b0c4de;
+
+
+// Functional color variables
+
+$color-prim     : $whitesmoke;
+$color-sec      : $lightblue;
+$color-border   : $lightsteelblue;
+
+// Media breakpoints
+
+$brk-narrow     : '(min-width: 768px)';
+$brk-wide       : '(min-width: 1024px)';

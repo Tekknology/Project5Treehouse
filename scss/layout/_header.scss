@@ -1,0 +1,13 @@
+.main-header h1 {
+  @extend %margin;
+  padding: 10px 0;
+  border-bottom: 2px solid $color-border;
+  
+  @media #{$brk-wide} {
+    float: left;
+    margin-left: 5%;
+  }
+  @media #{$brk-narrow} {
+    border: none;
+  }
+}

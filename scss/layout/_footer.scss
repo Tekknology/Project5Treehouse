@@ -1,0 +1,37 @@
+/**
+ * ====== Footer Styles ======
+ */
+.main-footer {
+  @extend %centered;
+  padding: 10px 0;
+  border-top: solid 2px $color-border;
+  
+  ul {
+    display: none;
+  
+    @media #{$brk-narrow} {
+      display: block;
+    }
+  }
+  ul li {
+    @media #{$brk-narrow} {
+      display: inline-block;
+      float: right;
+      margin-right: 20px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.student {
+  @extend %float-left;
+  margin-left: 5%;
+}
+.btp {
+  @extend %float-right;
+  margin-right: 5%;
+  
+  @media #{$brk-narrow} {
+    display: none;
+  }
+}
