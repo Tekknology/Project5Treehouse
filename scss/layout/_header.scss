@@ -3,11 +3,11 @@
   padding: 10px 0;
   border-bottom: 2px solid $color-border;
   
-  @media #{$brk-wide} {
+  @include desktop {
     float: left;
     margin-left: 5%;
   }
-  @media #{$brk-narrow} {
+  @include tablet {
     border: none;
   }
 }

@@ -7,7 +7,19 @@
         color: $color;
 }
 
-
+// Media Mixins
+      
+@mixin tablet {
+   @media #{$brk-narrow} {
+       @content;
+   }
+}
+  
+@mixin desktop {
+   @media #{$brk-wide} {
+       @content;
+   }
+}
 
 
 

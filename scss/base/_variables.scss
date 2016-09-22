@@ -12,6 +12,12 @@ $color-prim     : $whitesmoke;
 $color-sec      : $lightblue;
 $color-border   : $lightsteelblue;
 
+// Font variables
+
+$font-family    : 'Poppins', sans-serif;
+$font-size      : 1em;
+$line-height    : 1.5;
+
 // Media breakpoints
 
 $brk-narrow     : '(min-width: 768px)';

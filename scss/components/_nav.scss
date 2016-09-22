@@ -9,17 +9,17 @@
 .main-nav {
   padding: 5%;
   
-  @media #{$brk-wide} {
+  @include desktop {
     padding-bottom: 0;
   }
-  @media #{$brk-narrow} {
+  @include tablet {
     padding: 10px 0;
     border-bottom: 2px solid $color-border;
   }
   ul {
     margin: 0;
   
-    @media #{$brk-wide} {
+    @include desktop {
       float: right;
     }
   }
@@ -28,11 +28,11 @@
     padding: 10px;
     margin: 2px 5%;
   
-    @media #{$brk-wide} {
+    @include desktop {
       float: left;
       margin-right: 20px;
     }
-    @media #{$brk-narrow} {
+    @include tablet {
       display: inline-block;
       margin: 0;
       min-width: 100px;

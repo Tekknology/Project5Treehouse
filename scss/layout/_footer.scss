@@ -9,12 +9,12 @@
   ul {
     display: none;
   
-    @media #{$brk-narrow} {
+    @include tablet {
       display: block;
     }
   }
   ul li {
-    @media #{$brk-narrow} {
+    @include tablet {
       display: inline-block;
       float: right;
       margin-right: 20px;
@@ -31,7 +31,7 @@
   @extend %float-right;
   margin-right: 5%;
   
-  @media #{$brk-narrow} {
+  @include tablet {
     display: none;
   }
 }

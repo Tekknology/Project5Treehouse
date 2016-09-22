@@ -6,20 +6,20 @@
   @extend %centered;
   margin: 10% auto;
   
-  @media #{$brk-wide} {
+  @include desktop {
     margin: 30px auto;
   }
-  @media #{$brk-narrow} {  
+  @include tablet {  
     margin: 30px auto;
   }
 }
 .portfolio ul li h3 {
   margin: 10px 0;
   
-  @media #{$brk-wide} {
+  @include desktop {
     margin: 10px 0;
   }
-  @media #{$brk-narrow} {
+  @include tablet {
     margin: 10px 0;
   }
 }
@@ -27,11 +27,11 @@
   margin: 0 5%;
   padding-bottom: 30px;
   
-  @media #{$brk-wide} {
+  @include desktop {
     margin: 0 5%;
     padding-bottom: 30px;
   }
-  @media #{$brk-narrow} {
+  @include tablet {
     margin: 0 5%;
     padding-bottom: 30px;
   }
@@ -40,7 +40,7 @@
 .pc-only {
   display: none;
   
-   @media #{$brk-wide} {
+   @include desktop {
     display: inline-block;
   }
 }

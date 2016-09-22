@@ -12,7 +12,7 @@
   letter-spacing: 1px;
   margin: 0 5%;
   
-  @media #{$brk-wide} {
+  @include desktop {
     max-width: 28%;
     margin: 0 auto;
   }
